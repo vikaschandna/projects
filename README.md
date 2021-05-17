@@ -4,6 +4,7 @@ pgbackup
 CLI for backing up remote PostgreSQL databases locally or to AWS S3.
 
 ## Usage
+
 Pass in a full database URL, the storage driver, and destination.
 
 S3 Example w/ bucket name:
@@ -28,7 +29,7 @@ $ pip install --user -e .
 Follow these steps to start developing with this project:
 
 Ensure `pip` and `pipenv` are installed
-Clone repository: git clone git@github.com:example/pgbackup
+Clone repository: git clone git@github.com:vikaschandna/pgbackup
 `cd` into the repository
 Activate virtualenv: pipenv shell
 Install dependencies: pipenv install
